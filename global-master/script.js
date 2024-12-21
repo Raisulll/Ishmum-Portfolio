@@ -28,8 +28,7 @@ function sendMail() {
         alert("Please select a service first");
         return;
       }
-      emailjs
-        .send("service_86b7rxd", "template_zjm0qhb", { name, email, message })
+      emailjs.send("service_xgjowv3", "template_5ra914h", { name, email, message })
         .then(
           function (response) {
             alert("Your request has been sent successfully");
